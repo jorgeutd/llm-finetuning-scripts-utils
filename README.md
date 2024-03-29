@@ -45,3 +45,8 @@ LoRA: Low-Rank Adaptation of Large Language Models
 QLoRA: Efficient Finetuning of Quantized LLMs
 Hugging Face Transformers
 bitsandbytes
+
+
+### License
+
+This project is licensed under the terms of the MIT license.
