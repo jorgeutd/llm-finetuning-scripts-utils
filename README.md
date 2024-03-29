@@ -8,6 +8,7 @@ LoRA
 Reduces memory footprint: LoRA achieves this by applying a low-rank approximation to the weight update matrix (ΔW), representing ΔW as the product of two smaller matrices, significantly reducing the number of parameters needed to store ΔW.
 Fast fine-tuning: LoRA offers fast training times compared to traditional fine-tuning methods due to its reduced parameter footprint.
 Maintains performance: LoRA has been shown to maintain performance close to traditional fine-tuning methods in several tasks.
+
 QLoRA
 Enhances parameter efficiency: QLoRA takes LoRA a step further by also quantizing the weights of the LoRA adapters (smaller matrices) to lower precision (e.g., 4-bit instead of 8-bit), further reducing the memory footprint and storage requirements.
 More memory efficient: QLoRA is even more memory efficient than LoRA, making it ideal for resource-constrained environments.
@@ -15,11 +16,11 @@ Similar effectiveness: QLoRA has been shown to maintain similar effectiveness to
 Getting Started
 To get started with fine-tuning large language models using the scripts in this repository, follow these steps:
 
-Clone the repository:
+### Clone the repository:
 
 git clone https://github.com/your-username/llm-finetuning-scripts-utils.git
 
-Install the required dependencies:
+### Install the required dependencies:
 pip install -r requirements.txt
 
 Prepare your dataset and configure the desired hyperparameters in the script of your choice.
